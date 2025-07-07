@@ -1,35 +1,11 @@
-// {
-//     "chat.commandCenter.enabled": false,
-//     "workbench.statusBar.visible": false,
-//     "autoHide.sideBarDelay": 45,
-//     "autoHide.panelDelay": 30,
-//     "workbench.colorTheme": "GitHub Dark Default",
-//     "workbench.colorCustomizations": {
-//         "terminal.background": "#00000000"
-//     },
-//     "vscode_vibrancy.disableFramelessWindow": true,
-//     "window.titleBarStyle": "custom",
-//     "vscode_vibrancy.opacity": 0.1,
-//     "vscode_vibrancy.preferedDarkTheme": "GitHub Dark Default",
-//     "vscode_vibrancy.theme": "GitHub Dark Default",
-//     "editor.fontSize": 22,
-//     "files.autoSave": "afterDelay",
-//     "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
-//     "window.commandCenter": false,
-//     "terminal.integrated.gpuAcceleration": "off",
-//     "window.systemColorTheme": "dark",
-//     "window.autoDetectColorScheme": false
-// }
 {
   "chat.commandCenter.enabled": false,
   "window.commandCenter": false,
   "workbench.statusBar.visible": false,
 
-  // 🎯 Auto-hide sidebar/panel
   "autoHide.sideBarDelay": 45,
   "autoHide.panelDelay": 30,
 
-  // 🎨 Theme and Vibrancy
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.colorCustomizations": {
     "terminal.background": "#00000000"
@@ -39,32 +15,26 @@
   "vscode_vibrancy.preferedDarkTheme": "GitHub Dark Default",
   "vscode_vibrancy.theme": "GitHub Dark Default",
 
-  // ✍️ Font
   "editor.fontSize": 22,
   "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
 
-  // 💾 Auto save
   "files.autoSave": "afterDelay",
 
-  // 🌙 Clean UI
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
   "editor.renderLineHighlight": "none",
 
-  // 🧠 Smooth Cursor
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
   "editor.cursorStyle": "line",
 
-  // 🖥 Terminal and Window
   "terminal.integrated.gpuAcceleration": "off",
   "window.titleBarStyle": "custom",
   "window.systemColorTheme": "dark",
   "window.autoDetectColorScheme": false,
 
-  // 🧱 Sidebar / Explorer
   "workbench.iconTheme": "material-icon-theme",
   "explorer.openEditors.visible": 0,
   "explorer.compactFolders": false,
