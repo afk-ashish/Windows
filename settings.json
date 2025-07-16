@@ -6,7 +6,7 @@
   "autoHide.sideBarDelay": 45,
   "autoHide.panelDelay": 30,
 
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorTheme": "GitHub Dark",
   "workbench.colorCustomizations": {
     "terminal.background": "#00000000"
   },
@@ -36,12 +36,21 @@
   "window.autoDetectColorScheme": false,
 
   "workbench.iconTheme": "material-icon-theme",
-  "explorer.openEditors.visible": 0,
+  "explorer.openEditors.visible": 1,
   "explorer.compactFolders": false,
   "explorer.decorations.badges": false,
   "explorer.decorations.colors": false,
   "workbench.tree.indent": 10,
   "workbench.tree.renderIndentGuides": "none",
   "workbench.tree.expandMode": "singleClick",
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "vscode_vibrancy.imports": [
+
+    "/path/to/file"
+  ],
+  "vscode_vibrancy.type": "acrylic",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.stickyScroll.enabled": false,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.runInTerminal": true
 }
