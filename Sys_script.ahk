@@ -1,7 +1,7 @@
-﻿#Requires AutoHotkey v2.0
+#Requires AutoHotkey v2.0
 #SingleInstance Force
 
-MsgBox "Script started!"
+;MsgBox "Script started!"
 
 #+z:: {
     winTitle := "Zen ahk_class ApplicationFrameWindow"
@@ -25,12 +25,12 @@ MsgBox "Script started!"
             WinActivate(winTitle)
     } else {
         Sleep(500)  ; Wait 0.5 seconds before launch
-        Run("C:\Users\ashis\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Spotify.lnk")
+        Run("C:\Users\Ashish\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Spotify.lnk")
     }
 }
 
 
-#+v:: Run("C:\Users\ashis\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code.lnk")  ; Win+V
+#+v:: Run("C:\Users\Ashish\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code.lnk")  ; Win+V
 
 #q:: Send("!{F4}")  ; Win+Q sends Alt+F4
 
@@ -110,16 +110,7 @@ runApp(appName) {
     return
 }
 
-^Up::  ; Ctrl+Up :— Expand selection upward line by line
-{
-    ; Move up one line and extend the selection to the left
-    Send("+{Up}")
-    return
-}
-
 ^+Backspace::  ; Ctrl+Shift+Backspace :— Delete whole line
 {
     Send("{Home}+{End}{Backspace}")
 }
-
-
