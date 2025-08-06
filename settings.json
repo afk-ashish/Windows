@@ -5,12 +5,9 @@
 
   "autoHide.sideBarDelay": 45,
   "autoHide.panelDelay": 30,
-
-  "workbench.colorTheme": "GitHub Dark",
   "workbench.colorCustomizations": {
     "terminal.background": "#00000000"
   },
-  "vscode_vibrancy.disableFramelessWindow": true,
   "vscode_vibrancy.opacity": 0.1,
   "vscode_vibrancy.preferedDarkTheme": "GitHub Dark Default",
   "vscode_vibrancy.theme": "GitHub Dark Default",
@@ -28,12 +25,8 @@
 
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
-  "editor.cursorStyle": "line",
-
-  "terminal.integrated.gpuAcceleration": "off",
-  "window.titleBarStyle": "custom",
-  "window.systemColorTheme": "dark",
-  "window.autoDetectColorScheme": false,
+"editor.cursorStyle": "line",
+"window.titleBarStyle": "custom",
 
   "workbench.iconTheme": "material-icon-theme",
   "explorer.openEditors.visible": 1,
@@ -52,5 +45,16 @@
   "security.workspace.trust.untrustedFiles": "open",
   "editor.stickyScroll.enabled": false,
   "code-runner.saveFileBeforeRun": true,
-  "code-runner.runInTerminal": true
+"code-runner.runInTerminal": true,
+"workbench.secondarySideBar.defaultVisibility": "hidden",
+"editor.mouseWheelZoom": true,
+"workbench.secondarySideBar.showLabels": false,
+"livePreview.customExternalBrowser": "Chrome",
+"livePreview.openPreviewTarget": "External Browser",
+"vscode_vibrancy.disableFramelessWindow": true,
+"workbench.colorTheme": "GitHub Dark Default",
+"terminal.integrated.gpuAcceleration": "off",
+"window.systemColorTheme": "dark",
+"window.autoDetectColorScheme": false,
+"window.controlsStyle": "custom"
 }
